@@ -52,9 +52,10 @@ namespace ITMO.CSCourse2021.Labs.Lab03_ForEnum
             MonthName temp = (MonthName)monthNum;
             string monthName = temp.ToString();
 
-            Console.WriteLine("{ 0} { 1}", dayNum, monthName);
+            Console.WriteLine("{0} {1}", dayNum, monthName);
+            Console.ReadKey();
         }
-…
-}
+
+    }
 
 }
