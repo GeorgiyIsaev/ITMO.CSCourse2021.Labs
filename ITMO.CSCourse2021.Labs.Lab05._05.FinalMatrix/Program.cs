@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 /*Упражнение 2. Перемножение матриц
  	Обеспечьте возможность считывания значений первой матрицы с консоли*/
-namespace ITMO.CSCourse2021.Labs.Lab05._04.MatrixMultiply
+namespace ITMO.CSCourse2021.Labs.Lab05._05.FinalMatrix
 {
     class Program
     {

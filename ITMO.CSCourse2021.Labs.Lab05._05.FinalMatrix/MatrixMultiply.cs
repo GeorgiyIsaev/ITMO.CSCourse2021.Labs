@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ITMO.CSCourse2021.Labs.Lab05._04.MatrixMultiply
+namespace ITMO.CSCourse2021.Labs.Lab05._05.FinalMatrix
 {
     class MatrixMultiply
     {       
