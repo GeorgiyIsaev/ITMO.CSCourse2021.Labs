@@ -16,7 +16,7 @@ namespace ITMO.CSCourse2021.Labs.Lab06._05
         {
             BankAccount berts = NewBankAccount();
             Write(berts);
-            TestDeposit(berts);
+            TestDeposit(berts); 
             Write(berts);
             TestWithdraw(berts);
             Write(berts);
