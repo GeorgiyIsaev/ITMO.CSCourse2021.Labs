@@ -29,7 +29,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2021.Labs.Lab0
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Labs05", "Labs05", "{8F9CB6DB-535A-40CF-9BE5-ED8E79EEB59A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2021.Labs.Lab05._01", "ITMO.CSCourse2021.Labs.Lab05._01\ITMO.CSCourse2021.Labs.Lab05._01.csproj", "{C573C599-2AEC-4579-BDE8-849604683B65}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2021.Labs.Lab05._01Arguments", "ITMO.CSCourse2021.Labs.Lab05._01\ITMO.CSCourse2021.Labs.Lab05._01Arguments.csproj", "{C573C599-2AEC-4579-BDE8-849604683B65}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
