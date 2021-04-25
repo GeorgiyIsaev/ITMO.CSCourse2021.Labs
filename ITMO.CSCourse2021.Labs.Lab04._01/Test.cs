@@ -4,12 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*Лабораторная работа 4. Создание и использование методов*/
 namespace ITMO.CSCourse2021.Labs.Lab04._01
 {
     /// <summary>
     /// This the test harness
-    /// </summary>
-
+    /// </summary> 
     public class Test
     {
         public static void Main()
