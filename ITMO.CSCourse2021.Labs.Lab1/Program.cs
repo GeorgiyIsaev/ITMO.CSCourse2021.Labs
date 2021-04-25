@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ITMO.CSCourse2021.Labs.Lab1
+namespace ITMO.CSCourse2021.Labs.Lab01
 {
     class Greeter
     {
