@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*Лабораторная работа 5. Создание и использование массивов*/
+/*Упражнение 01: Запуск приложения с аргументами*/
 namespace ITMO.CSCourse2021.Labs.Lab05._01
 {
     class Program
