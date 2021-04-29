@@ -4,9 +4,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-/*Лабораторная работа 7. Создание и использование ссылочных переменных*/
-/*Упражнение 2. Обращение строки*/
-
 namespace ITMO.CSCourse2021.Labs.Lab07.E2.StringConversion
 {
     class Utils
