@@ -7,33 +7,33 @@ using System.Threading.Tasks;
 
 namespace ITMO.CSCourse2021.Labs.Lab10.E1.Internal
 {
-    public class Bank
+    static public class Bank
     {
         //private Bank() { /*Приватный конструткор*/}
-       
 
-        public long CreateAccount()
+
+        static public long CreateAccount()
         {
             BankAccount newAcc = new BankAccount();
             long accNo = newAcc.Number();
             accounts[accNo] = newAcc;
             return accNo;
         }
-        public long CreateAccount(AccountType aType)
+        static public long CreateAccount(AccountType aType)
         {
             BankAccount newAcc = new BankAccount(aType);
             long accNo = newAcc.Number();
             accounts[accNo] = newAcc;
             return accNo;
         }
-        public long CreateAccount(decimal aBal)
+        static public long CreateAccount(decimal aBal)
         {
             BankAccount newAcc = new BankAccount(aBal);
             long accNo = newAcc.Number();
             accounts[accNo] = newAcc;
             return accNo;
         }
-        public long CreateAccount(AccountType aType, decimal aBal)
+        static public long CreateAccount(AccountType aType, decimal aBal)
         {
             BankAccount newAcc = new BankAccount(aType, aBal);
             long accNo = newAcc.Number();
@@ -42,7 +42,7 @@ namespace ITMO.CSCourse2021.Labs.Lab10.E1.Internal
         }
 
 
-        public bool CloseAccount(long accNo)
+        static public bool CloseAccount(long accNo)
         {
             BankAccount closing = (BankAccount)accounts[accNo];
             if (closing != null)
@@ -56,7 +56,7 @@ namespace ITMO.CSCourse2021.Labs.Lab10.E1.Internal
                 return false;
             }      
         }
-        public BankAccount GetAccount(long accNo)
+        static public BankAccount GetAccount(long accNo)
         {
             return (BankAccount)accounts[accNo];
         }
