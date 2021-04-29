@@ -8,11 +8,13 @@ namespace CSharp
         public static void Main(string[] args)
         {
             try {
+                Console.WriteLine(args.Length);
                 InnerMain(args);
             }
             catch (System.Exception caught) {
                 Console.WriteLine(caught);
             }
+            Console.ReadKey();
         }
         
         public static void InnerMain(string[] args)
