@@ -81,6 +81,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Labs10", "Labs10", "{6A3C9C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2021.Labs.Lab10.E1.Internal", "ITMO.CSCourse2021.Labs.Lab10.E1.Internal\ITMO.CSCourse2021.Labs.Lab10.E1.Internal.csproj", "{3824B089-46C6-4C56-ACE9-0CBB1884CC05}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2021.Labs.Lab10.E2.BuildNameSpaceBanking", "ITMO.CSCourse2021.Labs.Lab10.E2.BuildNameSpaceBanking\ITMO.CSCourse2021.Labs.Lab10.E2.BuildNameSpaceBanking.csproj", "{71E26029-AC50-4EFF-B898-107CB6E4374B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -203,6 +205,10 @@ Global
 		{3824B089-46C6-4C56-ACE9-0CBB1884CC05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3824B089-46C6-4C56-ACE9-0CBB1884CC05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3824B089-46C6-4C56-ACE9-0CBB1884CC05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71E26029-AC50-4EFF-B898-107CB6E4374B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71E26029-AC50-4EFF-B898-107CB6E4374B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71E26029-AC50-4EFF-B898-107CB6E4374B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71E26029-AC50-4EFF-B898-107CB6E4374B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -237,6 +243,7 @@ Global
 		{2D5B7DB6-834C-4AE7-B5D6-0F5A4CFE784C} = {A7B3EC25-7791-425F-AA67-39899CECC403}
 		{4CAE4459-C392-414A-A06E-B5875C1B5EC7} = {A7B3EC25-7791-425F-AA67-39899CECC403}
 		{3824B089-46C6-4C56-ACE9-0CBB1884CC05} = {6A3C9C62-3229-447B-9339-6077F396CFF3}
+		{71E26029-AC50-4EFF-B898-107CB6E4374B} = {6A3C9C62-3229-447B-9339-6077F396CFF3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21C01442-98CC-46D8-80B6-3AFCBBB0A6E1}
