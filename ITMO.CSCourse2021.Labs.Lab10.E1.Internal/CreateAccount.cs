@@ -15,13 +15,21 @@ namespace ITMO.CSCourse2021.Labs.Lab10.E1.Internal
 		{
 			Console.WriteLine("Sid's Account");
 			Bank bank = new Bank();
-			BankAccount sids = bank.CreateAccount();
+			long sidsAccNo = bank.CreateAccount();
+			BankAccount sids = bank.GetAccount(sidsAccNo);
 			TestDeposit(sids);
 			TestWithdraw(sids);
 			Write(sids);
-			sids.Dispose();
-
+			if (bank.CloseAccount(sidsAccNo))
+			{
+				Console.WriteLine("Account closed");
+			}
+			else
+			{
+				Console.WriteLine("Something went wrong closing the account");
+			}
 		}
+
 
 		static void TestDeposit(BankAccount acc)
 		{

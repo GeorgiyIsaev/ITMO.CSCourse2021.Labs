@@ -8,7 +8,7 @@ using System.Collections;
 
 namespace ITMO.CSCourse2021.Labs.Lab10.E1.Internal
 {
-    public sealed class BankAccount : IDisposable
+    sealed public class BankAccount : IDisposable
     {
         private long accNo;
         private decimal accBal;
@@ -16,6 +16,7 @@ namespace ITMO.CSCourse2021.Labs.Lab10.E1.Internal
         private static long nextNumber = 123;
         private Queue tranQueue = new Queue();
         private bool disposed = false;
+
         internal BankAccount()
         {
             accNo = NextNumber();

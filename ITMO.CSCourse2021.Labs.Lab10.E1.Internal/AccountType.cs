@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace ITMO.CSCourse2021.Labs.Lab10.E1.Internal
 {
 
-    enum AccountType
+    public enum AccountType
     {
         Checking,
         Deposit
