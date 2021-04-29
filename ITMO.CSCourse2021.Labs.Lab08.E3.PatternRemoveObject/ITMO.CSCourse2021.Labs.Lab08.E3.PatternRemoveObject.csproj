@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C73D6D42-32DB-4A78-907B-2FF374631ADE}</ProjectGuid>
+    <ProjectGuid>{E8E20535-5397-4652-B89A-39E66CE70D60}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>ITMO.CSCourse2021.Labs.Lab7.E1.TwoParametrMetod</RootNamespace>
-    <AssemblyName>ITMO.CSCourse2021.Labs.Lab7.E1.TwoParametrMetod</AssemblyName>
+    <RootNamespace>ITMO.CSCourse2021.Labs.Lab08.E3.PatternRemoveObject</RootNamespace>
+    <AssemblyName>ITMO.CSCourse2021.Labs.Lab08.E3.PatternRemoveObject</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -44,8 +44,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AccountType.cs" />
-    <Compile Include="BankAccount .cs" />
-    <Compile Include="Test.cs" />
+    <Compile Include="BankAccount.cs" />
+    <Compile Include="BankTransaction.cs" />
+    <Compile Include="CreateAccount.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
