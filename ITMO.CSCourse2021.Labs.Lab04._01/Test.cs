@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*Лабораторная работа 4. Создание и использование методов*/
-namespace ITMO.CSCourse2021.Labs.Lab04._01
+namespace ITMO.CSCourse2021.Labs.Lab04.E1.E2.E3.Metods
 {
     /// <summary>
     /// This the test harness
