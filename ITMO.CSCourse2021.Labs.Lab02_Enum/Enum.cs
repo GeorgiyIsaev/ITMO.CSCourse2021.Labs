@@ -4,11 +4,17 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-/*Создание и использование размерных типов данных*/
+/*Лабораторная работа 2. Создание и использование размерных типов данных*/
+/*Упражнение 1. Создание перечисления.*/
 
 namespace ITMO.CSCourse2021.Labs.Lab02
 {
-    public enum AccountType { Checking, Deposit }
+    public enum AccountType 
+    { 
+        Checking,
+        Deposit
+    }
+
     class Enum
     {
         static void Main(string[] args)

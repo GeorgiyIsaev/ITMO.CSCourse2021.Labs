@@ -4,18 +4,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*Лабораторная работа 1. Создание простой C#-программы */
+
 namespace ITMO.CSCourse2021.Labs.Lab01
 {
     class Greeter
     {
         static void Main(string[] args)
-        {              
+        {
+            /*Упражнение 1. Создание простой программы*/
+            /*Упражнение 2.Компиляция и запуск C#-программы из командной строки*/
+            /*Упражнение 3.Использование отладчика Visual Studio.NET*/
             string address = System.Runtime.InteropServices.RuntimeEnvironment.GetRuntimeDirectory();
             Console.WriteLine("address: {0}", address);
             Console.WriteLine("Please enter your name");
             string myName = Console.ReadLine();
             Console.WriteLine("Hello {0}", myName);
-            
+           
+            /*Упражнение 4. Добавление в C#-программу обработчика исключительных ситуаций*/
             try
             {
                 Console.WriteLine("Please enter the first integer");

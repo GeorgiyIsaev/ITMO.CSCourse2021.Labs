@@ -4,6 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*Лабораторная работа 2. Создание и использование размерных типов данных*/
+
 namespace TMO.CSCourse2021.Labs.Lab02_Struct
 {
     public enum AccountType { Checking, Deposit }
@@ -14,8 +16,6 @@ namespace TMO.CSCourse2021.Labs.Lab02_Struct
         public decimal accBal;
         public AccountType accType;
     }
-
-
 
 
     class Struct
