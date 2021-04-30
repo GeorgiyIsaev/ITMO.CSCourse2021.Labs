@@ -83,6 +83,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2021.Labs.Lab1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2021.Labs.Lab10.E2.BuildNameSpaceBanking", "ITMO.CSCourse2021.Labs.Lab10.E2.BuildNameSpaceBanking\ITMO.CSCourse2021.Labs.Lab10.E2.BuildNameSpaceBanking.csproj", "{71E26029-AC50-4EFF-B898-107CB6E4374B}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Labs11", "Labs11", "{BB84D10E-E0D6-452C-BEA7-FDD3A1E0FB85}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2021.Labs.Lab11.E1.OverloadingMethods", "ITMO.CSCourse2021.Labs.Lab11.E1.OverloadingMethods\ITMO.CSCourse2021.Labs.Lab11.E1.OverloadingMethods.csproj", "{21257C99-9595-4F16-8985-F1285ED1D82C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -209,6 +213,10 @@ Global
 		{71E26029-AC50-4EFF-B898-107CB6E4374B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71E26029-AC50-4EFF-B898-107CB6E4374B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{71E26029-AC50-4EFF-B898-107CB6E4374B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21257C99-9595-4F16-8985-F1285ED1D82C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21257C99-9595-4F16-8985-F1285ED1D82C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21257C99-9595-4F16-8985-F1285ED1D82C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21257C99-9595-4F16-8985-F1285ED1D82C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -244,6 +252,7 @@ Global
 		{4CAE4459-C392-414A-A06E-B5875C1B5EC7} = {A7B3EC25-7791-425F-AA67-39899CECC403}
 		{3824B089-46C6-4C56-ACE9-0CBB1884CC05} = {6A3C9C62-3229-447B-9339-6077F396CFF3}
 		{71E26029-AC50-4EFF-B898-107CB6E4374B} = {6A3C9C62-3229-447B-9339-6077F396CFF3}
+		{21257C99-9595-4F16-8985-F1285ED1D82C} = {BB84D10E-E0D6-452C-BEA7-FDD3A1E0FB85}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21C01442-98CC-46D8-80B6-3AFCBBB0A6E1}
