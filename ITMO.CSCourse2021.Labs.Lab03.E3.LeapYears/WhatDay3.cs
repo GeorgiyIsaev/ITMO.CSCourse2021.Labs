@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 /*Лабораторная работа 3. Использование выражений и исключений*/
 /*Упражнение 3. Учет високосных годов*/
 
-namespace ITMO.CSCourse2021.Labs03_4.Leap_years
+namespace ITMO.CSCourse2021.Labs.Lab03.E3.LeapYears
 {
     enum MonthName
     {

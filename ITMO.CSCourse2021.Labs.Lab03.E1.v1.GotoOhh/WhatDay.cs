@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 /*Лабораторная работа 3. Использование выражений и исключений*/
 /*Упражнение 1. Преобразование дня года в дату типа  месяц - день*/
 
-namespace ITMO.CSCourse2021.Labs.Lab03
+namespace ITMO.CSCourse2021.Labs.Lab03.E1.v1.GotoOhh
 {
     class WhatDay
     {

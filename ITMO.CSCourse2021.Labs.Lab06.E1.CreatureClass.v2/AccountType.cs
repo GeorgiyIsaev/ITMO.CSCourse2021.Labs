@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ITMO.CSCourse2021.Labs.Lab06._02
+namespace ITMO.CSCourse2021.Labs.Lab06.E1.CreatureClass.v2
 {
     public enum AccountType
     {

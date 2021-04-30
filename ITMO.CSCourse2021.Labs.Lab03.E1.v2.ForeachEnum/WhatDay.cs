@@ -9,7 +9,7 @@ using System.Threading.Tasks;
         Второй вид решения  */
 
 
-namespace ITMO.CSCourse2021.Labs.Lab03_ForEnum
+namespace ITMO.CSCourse2021.Labs.Lab03.E1.v2.ForeachEnum
 {
     enum MonthName
     {

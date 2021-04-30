@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 /*	Продолжите инкапсуляцию данных класса BankAccount*/
 
 
-namespace ITMO.CSCourse2021.Labs.Lab06._04
+namespace ITMO.CSCourse2021.Labs.Lab06.E2.StaticVal.v2
 {
     class CreateAccount
     {

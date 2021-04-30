@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 /*Упражнение 2. Генерация номеров банковских счетов*/
 
 
-namespace ITMO.CSCourse2021.Labs.Lab06._03
+namespace ITMO.CSCourse2021.Labs.Lab06.E2.StaticVal.v1
 {
     class CreateAccount
     {

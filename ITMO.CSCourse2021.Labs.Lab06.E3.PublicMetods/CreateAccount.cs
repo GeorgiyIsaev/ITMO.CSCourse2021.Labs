@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 /*Упражнение 3. Добавление дополнительных public методов*/
 
 
-namespace ITMO.CSCourse2021.Labs.Lab06._05
+namespace ITMO.CSCourse2021.Labs.Lab06.E3.PublicMetods
 {
     class CreateAccount
     {

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 /*Упражнение 1. Работа с массивами размерных типов.*/
 /*Систематизируйте и резюмируйте информацию о содержимом файла*/
 
-namespace ITMO.CSCourse2021.Labs.Lab05._03
+namespace ITMO.CSCourse2021.Labs.Lab05.E1.ArgumentsMain.v3
 {
     class Program
     {

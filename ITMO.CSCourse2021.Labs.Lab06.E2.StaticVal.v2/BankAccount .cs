@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ITMO.CSCourse2021.Labs.Lab06._04
+namespace ITMO.CSCourse2021.Labs.Lab06.E2.StaticVal.v2
 {
     public class BankAccount
     {

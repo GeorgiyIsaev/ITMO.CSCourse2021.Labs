@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 /*Лабораторная работа 2. Создание и использование размерных типов данных*/
 /*Упражнение 1. Создание перечисления.*/
 
-namespace ITMO.CSCourse2021.Labs.Lab02
+namespace ITMO.CSCourse2021.Labs.Lab02.E1.Enum
 {
     public enum AccountType 
     { 

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 /*Лабораторная работа 6. Создание и использование классов*/
 /*Упражнение 1. Создание и использование класса*/
 
-namespace ITMO.CSCourse2021.Labs.Lab06._01
+namespace ITMO.CSCourse2021.Labs.Lab06.E1.CreatureClass.v1
 {
     class CreateAccount
     {

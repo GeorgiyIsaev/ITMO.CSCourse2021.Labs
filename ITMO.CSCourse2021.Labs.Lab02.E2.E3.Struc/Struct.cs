@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 /*Лабораторная работа 2. Создание и использование размерных типов данных*/
 
-namespace TMO.CSCourse2021.Labs.Lab02_Struct
+namespace ITMO.CSCourse2021.Labs.Lab02.E2.E3.Struct
 {
     public enum AccountType { Checking, Deposit }
 

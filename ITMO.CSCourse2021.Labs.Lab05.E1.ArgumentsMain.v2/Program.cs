@@ -9,7 +9,7 @@ using System.IO;
 /*Упражнение 1. Работа с массивами размерных типов.*/
 /*Считайте содержимое текстового файла в массив*/
 
-namespace ITMO.CSCourse2021.Labs.Lab05._02
+namespace ITMO.CSCourse2021.Labs.Lab05.E1.ArgumentsMain.v3
 {
     class Program
     {

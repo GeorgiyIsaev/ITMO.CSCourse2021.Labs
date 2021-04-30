@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 /*Упражнение 1. Создание и использование класса*/
 /*	Инкапсулируйте данные класса BankAccount*/
 
-namespace ITMO.CSCourse2021.Labs.Lab06._02
+namespace ITMO.CSCourse2021.Labs.Lab06.E1.CreatureClass.v2
 {
     class CreateAccount
     {

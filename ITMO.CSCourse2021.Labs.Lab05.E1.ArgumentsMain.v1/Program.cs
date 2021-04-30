@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 /*Лабораторная работа 5. Создание и использование массивов*/
 /*Упражнение 01: Запуск приложения с аргументами*/
-namespace ITMO.CSCourse2021.Labs.Lab05._01
+namespace ITMO.CSCourse2021.Labs.Lab05.E1.ArgumentsMain.v1.HelpInfo
 {
     class Program
     {

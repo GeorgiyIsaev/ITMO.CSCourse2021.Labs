@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 /*Лабораторная работа 3. Использование выражений и исключений*/
 /*Упражнение 2. Проверка вводимого пользователем значения  дня года*/
 
-namespace ITMO.CSCourse2021.Labs.Lab03_02Exception
+namespace ITMO.CSCourse2021.Labs.Lab03.E2.exception
 {
     enum MonthName
     {

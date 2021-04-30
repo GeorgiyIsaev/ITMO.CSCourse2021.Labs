@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 /*Лабораторная работа 1. Создание простой C#-программы */
 
-namespace ITMO.CSCourse2021.Labs.Lab01
+namespace ITMO.CSCourse2021.Labs.Lab01.CS
 {
     class Greeter
     {
