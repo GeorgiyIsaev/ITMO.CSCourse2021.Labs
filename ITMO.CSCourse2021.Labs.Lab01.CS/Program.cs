@@ -12,7 +12,7 @@ namespace ITMO.CSCourse2021.Labs.Lab01
     {
         static void Main(string[] args)
         {
-            /*Упражнение 1. Создание простой программы*/
+            /*Упражнение 1.Создание простой программы*/
             /*Упражнение 2.Компиляция и запуск C#-программы из командной строки*/
             /*Упражнение 3.Использование отладчика Visual Studio.NET*/
             string address = System.Runtime.InteropServices.RuntimeEnvironment.GetRuntimeDirectory();

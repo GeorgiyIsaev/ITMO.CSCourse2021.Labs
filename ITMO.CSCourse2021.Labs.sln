@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30523.141
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2021.Labs.Lab01.CS", "ITMO.CSCourse2021.Labs.Lab1\ITMO.CSCourse2021.Labs.Lab01.CS.csproj", "{CA64CF4B-276C-401A-AB7B-B2EEB215D6F2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2021.Labs.Lab01.CS", "ITMO.CSCourse2021.Labs.Lab01.CS\ITMO.CSCourse2021.Labs.Lab01.CS.csproj", "{CA64CF4B-276C-401A-AB7B-B2EEB215D6F2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2021.Labs.Lab03.E1.v1.GotoOhh", "ITMO.CSCourse2021.Labs.Lab03.E1.v1.GotoOhh\ITMO.CSCourse2021.Labs.Lab03.E1.v1.GotoOhh.csproj", "{5FE3CF93-27B0-4270-9395-D29000E99B36}"
 EndProject
@@ -25,9 +25,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Labs05", "Labs05", "{8F9CB6
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2021.Labs.Lab05.E1.ArgumentsMain.v1.HelpInfo", "ITMO.CSCourse2021.Labs.Lab05.E1.ArgumentsMain.v1\ITMO.CSCourse2021.Labs.Lab05.E1.ArgumentsMain.v1.HelpInfo.csproj", "{C573C599-2AEC-4579-BDE8-849604683B65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2021.Labs.Lab02.E1.Enum", "ITMO.CSCourse2021.Labs.Lab02_Enum\ITMO.CSCourse2021.Labs.Lab02.E1.Enum.csproj", "{CAFF0CB0-EFA7-4F00-A85F-459AA736EF25}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2021.Labs.Lab02.E1.Enum", "ITMO.CSCourse2021.Labs.Lab02.E1.Enum\ITMO.CSCourse2021.Labs.Lab02.E1.Enum.csproj", "{CAFF0CB0-EFA7-4F00-A85F-459AA736EF25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2021.Labs.Lab02.E2.E3.Struct", "ITMO.CSCourse2021.Labs.Lab02_Struct\ITMO.CSCourse2021.Labs.Lab02.E2.E3.Struct.csproj", "{8BABD5F0-7D91-4210-BD08-56AE577834F6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2021.Labs.Lab02.E2.E3.Struct", "ITMO.CSCourse2021.Labs.Lab02.E2.E3.Struc\ITMO.CSCourse2021.Labs.Lab02.E2.E3.Struct.csproj", "{8BABD5F0-7D91-4210-BD08-56AE577834F6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2021.Labs.Lab03.E3.Leap years", "ITMO.CSCourse2021.Labs.Lab03.E3.Leap years\ITMO.CSCourse2021.Labs.Lab03.E3.Leap years.csproj", "{6866EB42-2212-4EDE-82C5-ABD12F5C59BC}"
 EndProject
