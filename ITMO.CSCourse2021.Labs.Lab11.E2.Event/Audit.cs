@@ -12,6 +12,7 @@ namespace ITMO.CSCourse2021.Labs.Lab11.E2.Event
     {
         class Audit 
         {
+            private event AuditEventHandler AuditingTransaction = null;
             private string filename;
             private StreamWriter auditFile;
             private bool closed = false;
@@ -27,7 +28,6 @@ namespace ITMO.CSCourse2021.Labs.Lab11.E2.Event
                 if (tempTrans != null)
                     this.auditFile.WriteLine("Amount: {0}\tDate: {1}",
                     tempTrans.Amount(), tempTrans.When());
-
             }
             public void Close()
             {
@@ -37,6 +37,16 @@ namespace ITMO.CSCourse2021.Labs.Lab11.E2.Event
                     closed = true;
                 }
             }
+            public void AddOnAuditingTransaction(AuditEventHandler handler)
+            {
+                this.AuditingTransaction += handler;
+            }
+            public void RemoveOnAuditingTransaction(AuditEventHandler handler)
+            {
+                this.AuditingTransaction -= handler;
+            }
+
+
         }
     }
 }

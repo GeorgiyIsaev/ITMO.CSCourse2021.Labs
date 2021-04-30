@@ -7,16 +7,20 @@ using System.Threading.Tasks;
 using System.Collections;
 
 namespace ITMO.CSCourse2021.Labs.Lab11.E2.Event
-{
+{	
 	namespace Banking
 	{
+		public delegate void AuditEventHandler(Object sender, AuditEventArgs data);
+
 		sealed public class BankAccount : IDisposable
 		{
+			private event AuditEventHandler AuditingTransaction = null;
 			private long accNo;
 			private decimal accBal;
 			private AccountType accType;
 			private Queue tranQueue = new Queue();
 			private bool disposed = false;
+			private Audit accountAudit;
 
 			private static long nextNumber = 123;
 
@@ -99,17 +103,21 @@ namespace ITMO.CSCourse2021.Labs.Lab11.E2.Event
 					accBal -= amount;
 					BankTransaction tran = new BankTransaction(-amount);
 					tranQueue.Enqueue(tran);
+					this.OnAuditingTransaction(tran);
 				}
 				return sufficientFunds;
 			}
+
 
 			public decimal Deposit(decimal amount)
 			{
 				accBal += amount;
 				BankTransaction tran = new BankTransaction(amount);
 				tranQueue.Enqueue(tran);
+				this.OnAuditingTransaction(tran);
 				return accBal;
 			}
+
 
 			public Queue Transactions()
 			{
@@ -139,7 +147,33 @@ namespace ITMO.CSCourse2021.Labs.Lab11.E2.Event
 			~BankAccount()
 			{
 				Dispose();
+				accountAudit.Close();
 			}
+
+			public void AddOnAuditingTransaction(AuditEventHandler handler)
+			{
+				this.AuditingTransaction += handler;
+			}
+			public void RemoveOnAuditingTransaction(AuditEventHandler handler)
+			{
+				this.AuditingTransaction -= handler;
+			}
+			protected void OnAuditingTransaction(BankTransaction bankTrans)
+			{
+				if (this.AuditingTransaction != null)
+				{
+					AuditEventArgs auditTrans = new AuditEventArgs(bankTrans);
+					this.AuditingTransaction(this, auditTrans);
+				}
+			}
+			public void AuditTrail(string auditFileName)
+			{
+				this.accountAudit = new Audit(auditFileName);
+				AuditEventHandler doAuditing = new AuditEventHandler(this.accountAudit.RecordTransaction);
+				this.AddOnAuditingTransaction(doAuditing);
+			}
+
+
 		}
 	}
 }
