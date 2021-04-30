@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*Лабораторная работа 3. Использование выражений и исключений*/
+/*Упражнение 2. Проверка вводимого пользователем значения  дня года*/
+
 namespace ITMO.CSCourse2021.Labs.Lab03_02Exception
 {
     enum MonthName
@@ -25,7 +28,8 @@ namespace ITMO.CSCourse2021.Labs.Lab03_02Exception
     {
         static void Main()
         {
-            /*Упражнение 2. Проверка вводимого пользователем значения  дня года*/            try
+                    
+            try
             {
                 Console.Write("Please enter a day number between 1 and 365: ");
                 string line = Console.ReadLine();

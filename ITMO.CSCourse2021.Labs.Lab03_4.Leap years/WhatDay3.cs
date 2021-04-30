@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*Лабораторная работа 3. Использование выражений и исключений*/
+/*Упражнение 3. Учет високосных годов*/
+
 namespace ITMO.CSCourse2021.Labs03_4.Leap_years
 {
     enum MonthName
@@ -24,8 +27,7 @@ namespace ITMO.CSCourse2021.Labs03_4.Leap_years
     class WhatDay3
     {
         static void Main(string[] args)
-        {
-            /*Упражнение 3. Учет високосных годов*/
+        {       
             try
             {
                 Console.Write("Please enter the year: ");

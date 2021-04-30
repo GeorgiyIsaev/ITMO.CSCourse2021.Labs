@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 /*Лабораторная работа 3. Использование выражений и исключений*/
-/**/
+/*Упражнение 1. Преобразование дня года в дату типа  месяц - день*/
 
 namespace ITMO.CSCourse2021.Labs.Lab03
 {
@@ -13,7 +13,6 @@ namespace ITMO.CSCourse2021.Labs.Lab03
     {
         static void Main()
         {
-            /*Упражнение 1. Преобразование дня года в дату типа  месяц - день*/
             Console.Write("Please enter a day number between 1 and 365: ");
             string line = Console.ReadLine();
             int dayNum = int.Parse(line);
