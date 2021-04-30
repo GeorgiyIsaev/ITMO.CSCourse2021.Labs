@@ -87,6 +87,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Labs11", "Labs11", "{BB84D1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2021.Labs.Lab11.E1.OverloadingMethods", "ITMO.CSCourse2021.Labs.Lab11.E1.OverloadingMethods\ITMO.CSCourse2021.Labs.Lab11.E1.OverloadingMethods.csproj", "{21257C99-9595-4F16-8985-F1285ED1D82C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2021.Labs.Lab11.E2.Event", "ITMO.CSCourse2021.Labs.Lab11.E2.Event\ITMO.CSCourse2021.Labs.Lab11.E2.Event.csproj", "{AD522D77-E6ED-40B8-B1E8-7ECACF97CA4D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -217,6 +219,10 @@ Global
 		{21257C99-9595-4F16-8985-F1285ED1D82C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{21257C99-9595-4F16-8985-F1285ED1D82C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{21257C99-9595-4F16-8985-F1285ED1D82C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD522D77-E6ED-40B8-B1E8-7ECACF97CA4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD522D77-E6ED-40B8-B1E8-7ECACF97CA4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD522D77-E6ED-40B8-B1E8-7ECACF97CA4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD522D77-E6ED-40B8-B1E8-7ECACF97CA4D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -253,6 +259,7 @@ Global
 		{3824B089-46C6-4C56-ACE9-0CBB1884CC05} = {6A3C9C62-3229-447B-9339-6077F396CFF3}
 		{71E26029-AC50-4EFF-B898-107CB6E4374B} = {6A3C9C62-3229-447B-9339-6077F396CFF3}
 		{21257C99-9595-4F16-8985-F1285ED1D82C} = {BB84D10E-E0D6-452C-BEA7-FDD3A1E0FB85}
+		{AD522D77-E6ED-40B8-B1E8-7ECACF97CA4D} = {BB84D10E-E0D6-452C-BEA7-FDD3A1E0FB85}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21C01442-98CC-46D8-80B6-3AFCBBB0A6E1}
