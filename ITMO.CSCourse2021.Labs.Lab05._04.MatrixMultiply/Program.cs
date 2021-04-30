@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
+/*Лабораторная работа 5. Создание и использование массивов*/
 /*Упражнение 2. Перемножение матриц
  	Перемножьте две матрицы*/
 namespace ITMO.CSCourse2021.Labs.Lab05._04.MatrixMultiply
