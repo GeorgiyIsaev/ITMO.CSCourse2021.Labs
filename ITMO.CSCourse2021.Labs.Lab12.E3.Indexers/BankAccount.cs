@@ -28,9 +28,20 @@ namespace ITMO.CSCourse2021.Labs.Lab12.E3.Indexers
 			}
 			public BankTransaction this[int index]
 			{
-				get { return new BankTransaction(99); }
-			}
+				get
+				{
+					if (index < 0 || index >= tranQueue.Count)
+						return null;
 
+					IEnumerator ie = tranQueue.GetEnumerator();
+					for (int i = 0; i <= index; i++)
+					{
+						ie.MoveNext();
+					}
+					BankTransaction tran = (BankTransaction)ie.Current;
+					return tran;
+				}
+			}
 
 			// Constructors
 			internal BankAccount()
