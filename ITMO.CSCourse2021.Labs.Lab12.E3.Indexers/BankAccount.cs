@@ -26,6 +26,10 @@ namespace ITMO.CSCourse2021.Labs.Lab12.E3.Indexers
 				get { return holder; }
 				set { holder = value; }
 			}
+			public BankTransaction this[int index]
+			{
+				get { return new BankTransaction(99); }
+			}
 
 
 			// Constructors
