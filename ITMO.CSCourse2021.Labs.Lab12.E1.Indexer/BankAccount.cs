@@ -20,6 +20,14 @@ namespace ITMO.CSCourse2021.Labs.Lab12.E1.Indexer
 
 			private static long nextNumber = 123;
 
+			private string holder;
+			public string Holder
+			{
+				get { return holder; }
+				set { holder = value; }
+			}
+
+
 			// Constructors
 			internal BankAccount()
 			{
@@ -97,7 +105,8 @@ namespace ITMO.CSCourse2021.Labs.Lab12.E1.Indexer
 
 			public override string ToString()
 			{
-				string retVal = "Number: " + this.accNo + "\tType: ";
+				string retVal = "Name: " + this.holder + "\tType: ";
+				retVal += "Number: " + this.accNo + "\tType: ";
 				retVal += (this.accType == AccountType.Checking) ? "Checking" : "Deposit";
 				retVal += "\tBalance: " + this.accBal;
 				return retVal;
