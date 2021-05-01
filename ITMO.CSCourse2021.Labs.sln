@@ -93,6 +93,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Labs12", "Labs12", "{014FE7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2021.Labs.Lab12.E1.Indexer", "ITMO.CSCourse2021.Labs.Lab12.E1.Indexer\ITMO.CSCourse2021.Labs.Lab12.E1.Indexer.csproj", "{C051B9AC-FEAE-4F5D-B1EC-A4692BE16B0B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2021.Labs.Lab12.E2.PropertiesBankTransaction", "ITMO.CSCourse2021.Labs.Lab12.E2.PropertiesBankTransaction\ITMO.CSCourse2021.Labs.Lab12.E2.PropertiesBankTransaction.csproj", "{C017EC70-E615-429D-BD62-0CAC4D5F8BAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -231,6 +233,10 @@ Global
 		{C051B9AC-FEAE-4F5D-B1EC-A4692BE16B0B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C051B9AC-FEAE-4F5D-B1EC-A4692BE16B0B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C051B9AC-FEAE-4F5D-B1EC-A4692BE16B0B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C017EC70-E615-429D-BD62-0CAC4D5F8BAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C017EC70-E615-429D-BD62-0CAC4D5F8BAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C017EC70-E615-429D-BD62-0CAC4D5F8BAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C017EC70-E615-429D-BD62-0CAC4D5F8BAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -269,6 +275,7 @@ Global
 		{21257C99-9595-4F16-8985-F1285ED1D82C} = {BB84D10E-E0D6-452C-BEA7-FDD3A1E0FB85}
 		{AD522D77-E6ED-40B8-B1E8-7ECACF97CA4D} = {BB84D10E-E0D6-452C-BEA7-FDD3A1E0FB85}
 		{C051B9AC-FEAE-4F5D-B1EC-A4692BE16B0B} = {014FE7E7-A290-4080-A426-75B5FF20FBDB}
+		{C017EC70-E615-429D-BD62-0CAC4D5F8BAA} = {014FE7E7-A290-4080-A426-75B5FF20FBDB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {21C01442-98CC-46D8-80B6-3AFCBBB0A6E1}
