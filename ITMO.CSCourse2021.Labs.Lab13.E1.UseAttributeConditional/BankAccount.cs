@@ -1,6 +1,8 @@
 ﻿using System;
 using System.IO;
 using System.Collections;
+using System.Diagnostics;
+
 
 namespace ITMO.CSCourse2021.Labs.Lab13.E1.UseAttributeConditional
 {
@@ -41,6 +43,13 @@ namespace ITMO.CSCourse2021.Labs.Lab13.E1.UseAttributeConditional
 					BankTransaction tran = (BankTransaction)ie.Current;
 					return tran;
 				}
+			}
+
+			[Conditional("DEBUG_ACCOUNT")]
+			public void DumpToScreen()
+			{
+				Console.WriteLine("Debugging account {0}. Holder is {1}. Type is {2}. Balance is {3}",
+				this.accNo, this.holder, this.accType, this.accBal);
 			}
 
 			// Constructors
