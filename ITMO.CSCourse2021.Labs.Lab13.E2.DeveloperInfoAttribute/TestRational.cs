@@ -21,8 +21,7 @@ namespace ITMO.CSCourse2021.Labs.Lab13.E2.DeveloperInfoAttribute
             foreach (CustomAttribute.DeveloperInfoAttribute devAttr in attrs)
             {
                 Console.WriteLine("Developer: {0}\tDate: {1}", devAttr.Developer, devAttr.Date);
-            }           
-
+            }        
         }
     }
 }
