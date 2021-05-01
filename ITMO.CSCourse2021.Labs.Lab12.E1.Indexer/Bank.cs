@@ -19,7 +19,7 @@ namespace ITMO.CSCourse2021.Labs.Lab12.E1.Indexer
 			public static long CreateAccount()
 			{
 				BankAccount newAcc = new BankAccount();
-				long accNo = newAcc.Number();
+				long accNo = newAcc.Number;
 				accounts[accNo] = newAcc;
 				return accNo;
 			}
@@ -27,7 +27,7 @@ namespace ITMO.CSCourse2021.Labs.Lab12.E1.Indexer
 			public static long CreateAccount(AccountType aType, decimal aBal)
 			{
 				BankAccount newAcc = new BankAccount(aType, aBal);
-				long accNo = newAcc.Number();
+				long accNo = newAcc.Number;
 				accounts[accNo] = newAcc;
 				return accNo;
 			}
@@ -35,7 +35,7 @@ namespace ITMO.CSCourse2021.Labs.Lab12.E1.Indexer
 			public static long CreateAccount(AccountType aType)
 			{
 				BankAccount newAcc = new BankAccount(aType);
-				long accNo = newAcc.Number();
+				long accNo = newAcc.Number;
 				accounts[accNo] = newAcc;
 				return accNo;
 			}
@@ -43,7 +43,7 @@ namespace ITMO.CSCourse2021.Labs.Lab12.E1.Indexer
 			public static long CreateAccount(decimal aBal)
 			{
 				BankAccount newAcc = new BankAccount(aBal);
-				long accNo = newAcc.Number();
+				long accNo = newAcc.Number;
 				accounts[accNo] = newAcc;
 				return accNo;
 			}

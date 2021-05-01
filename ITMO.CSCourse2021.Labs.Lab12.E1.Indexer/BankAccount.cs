@@ -146,9 +146,9 @@ namespace ITMO.CSCourse2021.Labs.Lab12.E1.Indexer
 				return tranQueue;
 			}
 
-			public long Number()
+			public long Number
 			{
-				return accNo;
+				get { return accNo; }
 			}
 
 			public decimal Balance()
@@ -156,9 +156,9 @@ namespace ITMO.CSCourse2021.Labs.Lab12.E1.Indexer
 				return accBal;
 			}
 
-			public string Type()
+			public string Type
 			{
-				return accType.ToString();
+				get { return accType.ToString(); }
 			}
 
 			private static long NextNumber()
