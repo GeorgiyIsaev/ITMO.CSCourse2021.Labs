@@ -2,7 +2,7 @@
 using System.IO;
 using System.Collections;
 
-namespace ITMO.CSCourse2021.Labs.Lab12.E1.Indexer
+namespace ITMO.CSCourse2021.Labs.Lab12.E1.PropertiesBankAccount
 {
 	namespace Banking
 	{

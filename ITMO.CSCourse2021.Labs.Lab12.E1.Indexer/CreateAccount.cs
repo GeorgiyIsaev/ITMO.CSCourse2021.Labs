@@ -8,7 +8,7 @@ using System.Collections;
 /*Лабораторная работа 12. Использование свойств и индексаторов*/
 /*Упражнение 1. Изменение класса BankAccount*/
 
-namespace ITMO.CSCourse2021.Labs.Lab12.E1.Indexer
+namespace ITMO.CSCourse2021.Labs.Lab12.E1.PropertiesBankAccount
 {
 	using Banking;
 		class CreateAccount
