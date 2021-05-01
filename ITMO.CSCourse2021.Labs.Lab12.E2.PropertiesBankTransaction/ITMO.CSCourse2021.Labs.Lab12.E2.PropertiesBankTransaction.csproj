@@ -48,9 +48,8 @@
     <Compile Include="AuditEventArgs.cs" />
     <Compile Include="Bank.cs" />
     <Compile Include="BankAccount.cs" />
-    <Compile Include="Banking.cs" />
+    <Compile Include="BankTransaction.cs" />
     <Compile Include="CreateAccount.cs" />
-    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

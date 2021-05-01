@@ -1,5 +1,5 @@
-﻿using System.IO;
-using System;
+﻿using System;
+using System.IO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,14 +20,14 @@ namespace ITMO.CSCourse2021.Labs.Lab12.E2.PropertiesBankTransaction
 				when = DateTime.Now;
 			}
 
-			public decimal Amount()
+			public decimal Amount
 			{
-				return amount;
+				get { return amount; }
 			}
 
-			public DateTime When()
+			public DateTime When
 			{
-				return when;
+				get { return when; }
 			}
 		}
 	}

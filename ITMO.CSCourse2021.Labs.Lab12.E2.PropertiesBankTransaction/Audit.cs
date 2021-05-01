@@ -25,7 +25,7 @@ namespace ITMO.CSCourse2021.Labs.Lab12.E2.PropertiesBankTransaction
 			{
 				BankTransaction tempTrans = eventData.getTransaction();
 				if (tempTrans != null)
-					this.auditFile.WriteLine("Amount: {0}\tDate: {1}", tempTrans.Amount(), tempTrans.When());
+					this.auditFile.WriteLine("Amount: {0}\tDate: {1}", tempTrans.Amount, tempTrans.When);
 			}
 
 			public void Close()
