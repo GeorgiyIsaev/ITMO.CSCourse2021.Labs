@@ -43,11 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Program.cs" />
+    <Compile Include="TestRational.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rational.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ITMO.CSCourse2021.Labs.Lab13.E2.DeveloperInfoAttribute.DLL\ITMO.CSCourse2021.Labs.Lab13.E2.DeveloperInfoAttribute.DLL.csproj">
+      <Project>{bbd40830-fed3-48e5-a6ca-ed0cbcfe33bc}</Project>
+      <Name>ITMO.CSCourse2021.Labs.Lab13.E2.DeveloperInfoAttribute.DLL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

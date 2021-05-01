@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ITMO.CSCourse2021.Labs.Lab13.E2.DeveloperInfoAttribute.DLL
+namespace ITMO.CSCourse2021.Labs.Lab13.E2.DeveloperInfoAttribute
 {
     namespace CustomAttribute
     {     
