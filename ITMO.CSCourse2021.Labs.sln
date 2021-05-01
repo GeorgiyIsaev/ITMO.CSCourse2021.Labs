@@ -91,7 +91,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2021.Labs.Lab1
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Labs12", "Labs12", "{014FE7E7-A290-4080-A426-75B5FF20FBDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2021.Labs.Lab12.E1.PropertiesBankAccount", "ITMO.CSCourse2021.Labs.Lab12.E1.Indexer\ITMO.CSCourse2021.Labs.Lab12.E1.PropertiesBankAccount.csproj", "{C051B9AC-FEAE-4F5D-B1EC-A4692BE16B0B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2021.Labs.Lab12.E1.PropertiesBankAccount", "ITMO.CSCourse2021.Labs.Lab12.E1.PropertiesBankAccount\ITMO.CSCourse2021.Labs.Lab12.E1.PropertiesBankAccount.csproj", "{C051B9AC-FEAE-4F5D-B1EC-A4692BE16B0B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2021.Labs.Lab12.E2.PropertiesBankTransaction", "ITMO.CSCourse2021.Labs.Lab12.E2.PropertiesBankTransaction\ITMO.CSCourse2021.Labs.Lab12.E2.PropertiesBankTransaction.csproj", "{C017EC70-E615-429D-BD62-0CAC4D5F8BAA}"
 EndProject
