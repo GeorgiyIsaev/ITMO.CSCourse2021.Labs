@@ -103,7 +103,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2021.Labs.Lab1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2021.Labs.Lab13.E2.DeveloperInfoAttribute", "ITMO.CSCourse2021.Labs.Lab13.E2.DeveloperInfoAttribute\ITMO.CSCourse2021.Labs.Lab13.E2.DeveloperInfoAttribute.csproj", "{E908528F-44CA-4481-9A71-087B1E62B796}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ITMO.CSCourse2021.Labs.Lab13.E2.DeveloperInfoAttribute.DLL", "ITMO.CSCourse2021.Labs.Lab13.E2.DeveloperInfoAttribute.DLL\ITMO.CSCourse2021.Labs.Lab13.E2.DeveloperInfoAttribute.DLL.csproj", "{BBD40830-FED3-48E5-A6CA-ED0CBCFE33BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ITMO.CSCourse2021.Labs.Lab13.E2.DeveloperInfoAttribute.DLL", "ITMO.CSCourse2021.Labs.Lab13.E2.DeveloperInfoAttribute.DLL\ITMO.CSCourse2021.Labs.Lab13.E2.DeveloperInfoAttribute.DLL.csproj", "{BBD40830-FED3-48E5-A6CA-ED0CBCFE33BC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

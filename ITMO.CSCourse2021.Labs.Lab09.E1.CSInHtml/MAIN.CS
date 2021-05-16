@@ -7,8 +7,15 @@ namespace CSharp
     {
         public static void Main(string[] args)
         {
-            try {
-                Console.WriteLine(args.Length);
+
+            //generate token.cs > token.html
+            Console.WriteLine("Колличество аргументов: " + args.Length);
+            foreach (string ch in args)            
+                Console.WriteLine(ch);            
+            Console.ReadKey();
+
+
+            try {               
                 InnerMain(args);
             }
             catch (System.Exception caught) {

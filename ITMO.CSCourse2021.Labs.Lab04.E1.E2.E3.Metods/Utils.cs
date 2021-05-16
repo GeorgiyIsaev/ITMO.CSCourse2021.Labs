@@ -44,7 +44,7 @@ namespace ITMO.CSCourse2021.Labs.Lab04.E1.E2.E3.Metods
                     }
                 }
             }
-            catch (Exception)
+            catch (Exception e)
             {
                 f = 0;
                 ok = false;
