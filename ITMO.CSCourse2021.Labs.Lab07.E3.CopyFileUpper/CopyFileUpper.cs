@@ -31,25 +31,35 @@ namespace ITMO.CSCourse2021.Labs.Lab07.E3.CopyFileUpper
             {
                 srFrom = new StreamReader(sFrom);
                 swTo = new StreamWriter(sTo);
-
-                while (srFrom.Peek() != -1)
-                {
-                    string sBuffer = srFrom.ReadLine();
-                    sBuffer = sBuffer.ToUpper();
-                    swTo.WriteLine(sBuffer);
+                try
+                {   
+                    while (srFrom.Peek() != -1)
+                    {
+                        string sBuffer = srFrom.ReadLine();
+                        sBuffer = sBuffer.ToUpper();
+                        swTo.WriteLine(sBuffer);
+                    }
                 }
-                swTo.Close();
-                srFrom.Close();
+                finally
+                {
+                    swTo.Close();
+                    srFrom.Close();
+                }
 
             }
-            catch (FileNotFoundException)
+            catch (FileNotFoundException e)
             {
-                Console.WriteLine("Input file not found");
+                Console.WriteLine("Input file not found");             
             }
             catch (Exception e)
             {
                 Console.WriteLine("Unexpected exception");
                 Console.WriteLine(e.ToString());
+            }
+            finally
+            {
+                swTo.Close();
+                srFrom.Close();
             }
         }
 
