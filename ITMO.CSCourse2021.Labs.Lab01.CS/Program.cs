@@ -35,10 +35,15 @@ namespace ITMO.CSCourse2021.Labs.Lab01.CS
                 int k = i / j;
                 Console.WriteLine("The result of dividing {0} by {1} is {2}", i, j, k);
             }
+            catch (DivideByZeroException e)
+            {
+                Console.WriteLine("Второе число введеное вами является нулем!");
+                Console.WriteLine(e.ToString());
+            }            
             catch (Exception e)
             {
                 Console.WriteLine("An exception was thrown: {0}", e);
-            }
+            }            
             Console.Read();
 
         }
