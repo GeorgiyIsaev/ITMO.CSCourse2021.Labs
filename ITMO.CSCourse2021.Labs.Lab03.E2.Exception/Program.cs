@@ -35,7 +35,9 @@ namespace ITMO.CSCourse2021.Labs.Lab03.E2.exception
                 string line = Console.ReadLine();
                 int dayNum = int.Parse(line);
 
-                if (dayNum < 1 || dayNum > 365)
+                const int maxDayYear = 365;
+                const int minDayYear = 1;
+                if (dayNum < minDayYear || dayNum > maxDayYear)
                 {
                     throw new ArgumentOutOfRangeException("Day out of range");
                 }
