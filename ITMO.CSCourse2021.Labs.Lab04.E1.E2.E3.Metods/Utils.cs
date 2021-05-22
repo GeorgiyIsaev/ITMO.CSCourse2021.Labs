@@ -25,7 +25,7 @@ namespace ITMO.CSCourse2021.Labs.Lab04.E1.E2.E3.Metods
             a = b;
             b = temp;
         }
-        public static bool Factorial(int n, out int answer)
+        public static bool TryFactorial(int n, out int answer)
         {
             int k; // Loop counter
             int f; // Working value

@@ -38,16 +38,11 @@ namespace ITMO.CSCourse2021.Labs.Lab04.E1.E2.E3.Metods
             Console.ReadKey();
 
             /*Упражнение 3. Использование возвращаемых параметров в методах*/
-            int f; // Factorial result
-            bool ok; // Factorial success or failure
-
+            int f; // Factorial result 
             Console.WriteLine("Number for factorial:");
             x = int.Parse(Console.ReadLine());
-
-            // Test the factorial function
-            ok = Utils.Factorial(x, out f);
-            // Output factorial results
-            if (ok)
+               
+            if (Utils.TryFactorial(x, out f))
                 Console.WriteLine("Factorial(" + x + ") = " + f);
             else
                 Console.WriteLine("Cannot compute this factorial");
