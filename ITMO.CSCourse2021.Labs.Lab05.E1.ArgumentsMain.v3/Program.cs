@@ -16,15 +16,18 @@ namespace ITMO.CSCourse2021.Labs.Lab05.E1.ArgumentsMain.v3
         static void Main(string[] args)
         {
             string fileName = args[0];
-            FileStream stream = new FileStream(fileName, FileMode.Open);
-            StreamReader reader = new StreamReader(stream);
-            int size = (int)stream.Length;
-            char[] contents = new char[size];
-            for (int i = 0; i < size; i++)
+            char[] contents;
+            using (FileStream stream = new FileStream(fileName, FileMode.Open))
             {
-                contents[i] = (char)reader.Read();
+                StreamReader reader = new StreamReader(stream);
+                int size = (int)stream.Length;
+                contents = new char[size];
+                for (int i = 0; i < size; i++)
+                {
+                    contents[i] = (char)reader.Read();
+                }
+                FileDetails.Summarize(contents);               
             }
-            FileDetails.Summarize(contents);
             foreach (char ch in contents)
             {
                 Console.Write(ch);
