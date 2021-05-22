@@ -49,20 +49,15 @@ namespace ITMO.CSCourse2021.Labs.Lab07.E3.CopyFileUpper
             }
             catch (FileNotFoundException e)
             {
-                Console.WriteLine("Input file not found");             
+                Console.WriteLine("Input file not found");
+                Console.WriteLine(e.ToString());
             }
             catch (Exception e)
             {
                 Console.WriteLine("Unexpected exception");
                 Console.WriteLine(e.ToString());
-            }
-            finally
-            {
-                swTo.Close();
-                srFrom.Close();
-            }
+            }           
         }
-
     }
 }
 
