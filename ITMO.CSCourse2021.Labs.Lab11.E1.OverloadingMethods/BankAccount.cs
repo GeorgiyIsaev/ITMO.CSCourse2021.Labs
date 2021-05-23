@@ -46,27 +46,7 @@ namespace ITMO.CSCourse2021.Labs.Lab11.E1.OverloadingMethods
 			accType = aType;
 			accBal = aBal;
 		}
-
-		// Dispose Method
-
-		public void Dispose()
-		{
-			if (!disposed)
-			{
-				StreamWriter swFile = File.AppendText("Transactions.Dat");
-				swFile.WriteLine("Account number is {0}", accNo);
-				swFile.WriteLine("Account balance is {0}", accBal);
-				swFile.WriteLine("Account type is {0}", accType);
-				swFile.WriteLine("Transactions:");
-				foreach (BankTransaction tran in tranQueue)
-				{
-					swFile.WriteLine("Date/Time: {0}\tAmount: {1}", tran.When(), tran.Amount());
-				}
-				swFile.Close();
-				disposed = true;
-				GC.SuppressFinalize(this);
-			}
-		}
+		
 
 		public bool Withdraw(decimal amount)
 		{
@@ -112,11 +92,7 @@ namespace ITMO.CSCourse2021.Labs.Lab11.E1.OverloadingMethods
 		{
 			return nextNumber++;
 		}
-
-		~BankAccount()
-		{
-			Dispose();
-		}
+		
 
 		/*	Переопределите операторы = = и !=*/
 		public static bool operator ==(BankAccount acc1, BankAccount acc2)
@@ -155,6 +131,39 @@ namespace ITMO.CSCourse2021.Labs.Lab11.E1.OverloadingMethods
 			return (int)this.accNo;
 		}
 
+
+		public void Dispose()
+		{
+			if (!disposed)
+			{
+				SaveInFile();
+				disposed = true;
+				GC.SuppressFinalize(this);
+			}
+		}
+		~BankAccount()
+		{
+			if (!disposed)
+			{
+				SaveInFile();
+				disposed = true;
+			}
+		}
+		public void SaveInFile(string namefile = "Transactions.Dat")
+		{
+			using (StreamWriter swFile = File.AppendText(namefile))
+			{
+				swFile.WriteLine("Account number is {0}", accNo);
+				swFile.WriteLine("Account balance is {0}", accBal);
+				swFile.WriteLine("Account type is {0}", accType);
+				swFile.WriteLine("Transactions:");
+				foreach (BankTransaction tran in tranQueue)
+				{
+					swFile.WriteLine("Date/Time: {0}\tAmount:{1}", tran.When(), tran.Amount());
+				}
+				swFile.Close();
+			}
+		}
 
 	}
 }

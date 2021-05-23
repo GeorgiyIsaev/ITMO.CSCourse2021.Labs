@@ -94,6 +94,15 @@ namespace ITMO.CSCourse2021.Labs.Lab11.E2.Event
 					disposed = true;
 				}
 			}
+			~BankAccount()
+			{
+				if (!disposed)
+				{
+					accountAudit.Close();
+					disposed = true;
+				}				
+			}
+
 
 			public bool Withdraw(decimal amount)
 			{
@@ -144,11 +153,7 @@ namespace ITMO.CSCourse2021.Labs.Lab11.E2.Event
 				return nextNumber++;
 			}
 
-			~BankAccount()
-			{
-				Dispose();
-				accountAudit.Close();
-			}
+			
 
 			public void AddOnAuditingTransaction(AuditEventHandler handler)
 			{
