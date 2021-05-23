@@ -42,26 +42,7 @@ namespace ITMO.CSCourse2021.Labs.Lab10.E2.BuildNameSpaceBanking
                 accNo = NextNumber();
                 accType = aType;
                 accBal = aBal;
-            }
-
-            public void Dispose()
-            {
-                if (!disposed)
-                {
-                    StreamWriter swFile = File.AppendText("Transactions.Dat");
-                    swFile.WriteLine("Account number is {0}", accNo);
-                    swFile.WriteLine("Account balance is {0}", accBal);
-                    swFile.WriteLine("Account type is {0}", accType);
-                    swFile.WriteLine("Transactions:");
-                    foreach (BankTransaction tran in tranQueue)
-                    {
-                        swFile.WriteLine("Date/Time: {0}\tAmount:{1}", tran.When(), tran.Amount());
-                    }
-                    swFile.Close();
-                    disposed = true;
-                    GC.SuppressFinalize(this);
-                }
-            }
+            }            
 
             public void Populate(decimal balance)
             {
@@ -113,9 +94,39 @@ namespace ITMO.CSCourse2021.Labs.Lab10.E2.BuildNameSpaceBanking
             {
                 return nextNumber++;
             }
+
+
+            public void Dispose()
+            {
+                if (!disposed)
+                {
+                    SaveInFile();
+                    disposed = true;
+                    GC.SuppressFinalize(this);
+                }
+            }
             ~BankAccount()
             {
-                Dispose();
+                if (!disposed)
+                {
+                    SaveInFile();
+                    disposed = true;
+                }
+            }
+            public void SaveInFile(string namefile = "Transactions.Dat")
+            {
+                using (StreamWriter swFile = File.AppendText(namefile))
+                {
+                    swFile.WriteLine("Account number is {0}", accNo);
+                    swFile.WriteLine("Account balance is {0}", accBal);
+                    swFile.WriteLine("Account type is {0}", accType);
+                    swFile.WriteLine("Transactions:");
+                    foreach (BankTransaction tran in tranQueue)
+                    {
+                        swFile.WriteLine("Date/Time: {0}\tAmount:{1}", tran.When(), tran.Amount());
+                    }
+                    swFile.Close();
+                }
             }
         }
     }
