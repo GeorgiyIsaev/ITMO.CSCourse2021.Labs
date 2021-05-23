@@ -45,16 +45,7 @@ namespace ITMO.CSCourse2021.Labs.Lab08.E3.PatternRemoveObject
         {
             if (!disposed)
             {
-                StreamWriter swFile = File.AppendText("Transactions.Dat");
-                swFile.WriteLine("Account number is {0}", accNo);
-                swFile.WriteLine("Account balance is {0}", accBal);
-                swFile.WriteLine("Account type is {0}", accType);
-                swFile.WriteLine("Transactions:");
-                foreach (BankTransaction tran in tranQueue)
-                {
-                    swFile.WriteLine("Date/Time: {0}\tAmount:{1}", tran.When(), tran.Amount());
-                }
-                swFile.Close();
+                SaveInFile();
                 disposed = true;
                 GC.SuppressFinalize(this);
             }
@@ -63,7 +54,14 @@ namespace ITMO.CSCourse2021.Labs.Lab08.E3.PatternRemoveObject
         {
             if (!disposed)
             {
-                StreamWriter swFile = File.AppendText("Transactions.Dat");
+                SaveInFile();
+                disposed = true;               
+            }
+        }
+        public void SaveInFile(string namefile = "Transactions.Dat")
+        {
+            using (StreamWriter swFile = File.AppendText(namefile))
+            {
                 swFile.WriteLine("Account number is {0}", accNo);
                 swFile.WriteLine("Account balance is {0}", accBal);
                 swFile.WriteLine("Account type is {0}", accType);
@@ -73,7 +71,6 @@ namespace ITMO.CSCourse2021.Labs.Lab08.E3.PatternRemoveObject
                     swFile.WriteLine("Date/Time: {0}\tAmount:{1}", tran.When(), tran.Amount());
                 }
                 swFile.Close();
-                disposed = true;               
             }
         }
 
