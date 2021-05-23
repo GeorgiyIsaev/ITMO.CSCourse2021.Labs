@@ -151,6 +151,15 @@ namespace ITMO.CSCourse2021.Labs.Lab13.E1.UseAttributeConditional
 					disposed = true;
 				}
 			}
+			~BankAccount()
+			{
+				if (!disposed)
+				{
+					if (accountAudit != null)
+						accountAudit.Close();
+					disposed = true;
+				}
+			}
 
 			public bool Withdraw(decimal amount)
 			{
@@ -197,12 +206,7 @@ namespace ITMO.CSCourse2021.Labs.Lab13.E1.UseAttributeConditional
 			private static long NextNumber()
 			{
 				return nextNumber++;
-			}
-
-			~BankAccount()
-			{
-				Dispose();
-			}
+			}			
 		}
 	}
 }
